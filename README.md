@@ -4,5 +4,7 @@
 Статья, на основе которой реализован алгоритм - https://guitarpitchshifter.com/algorithm.html
 
 Файл phase_vocoder.py - реализованный алгоритм
+
 run.sh - shell файл для запуска в терминале
+
 2 wav-файла - примеры работы алгоритма
