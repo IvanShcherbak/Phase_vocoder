@@ -12,6 +12,7 @@ def stretch(data: np.ndarray, time_stretch_ratio: float) -> np.ndarray:
     """
     nfft = 2048
     hop = nfft/4
+    a = a / b
     stft = lb.core.stft(data, n_fft=nfft)
     stft_cols = stft.shape[1]
     times = np.arange(0, stft.shape[0], 1/time_stretch_ratio)
